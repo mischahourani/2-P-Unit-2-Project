@@ -7,8 +7,8 @@ Requirements
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include Border Radius CSS Property 
-[ no ] Feature 2 - Include a Static Background Image
-[ no ] Feature 3 - Include An Animated Background Color Change
+[ yes ] Feature 2 - Include a Static Background Image
+[ yes ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
 [ no ] Feature 5 - Include Border CSS Property 
 -->
@@ -20,18 +20,47 @@ Select ONE Additional Feature to Add
         <title>Unit 2 Project</title>
 <style> 
 body {
-    background-image: url(https://media.istockphoto.com/id/1496911399/photo/astoria-park.jpg?s=612x612&w=is&k=20&c=R8Q2cyATSAg7q_rZ0mtbap5JZnrB9tdkX7Y3_O9wKOs=);
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWMxd2wwYTdrMzloamdtZmoydnVwaWVuNGZsbHc2OWJ5cHU2dmJwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7FfMZCl2DSThYO1KGf/giphy.gif);
     background-size: cover;
     background-repeat: no-repeat;
+    backround-attachment: fixed;
 }
 
-#p1 {
-    background-color: rgb(255, 233, 32);
-    text-align: center;
+h1 {
+    background-color: rgb(139, 131, 187);
     font-size: 30px; 
 
 }
 
+#p1 {
+    background-color: rgb(135, 206, 235);
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p2 {
+    background-color: rgb(255, 192, 203);
+    font-size: 18px;
+}
+
+
+#p3 {
+    background-color: rgb(238, 238, 100);
+    font-size: 18px;
+}
+
+.img {
+    width: 350px;
+}
+
+#p4 {
+    background-color: rgb(238, 238, 100);
+    font-size: 18px;
+}
 
 
 </style>
@@ -41,11 +70,27 @@ body {
     </head>
     <body>
 
-        <p id="p1"> 
+        <h1 class="center">
            Come to my house
+        </h1>
+
+        <p id="p1" class="center">
+             I live in Astoria, Queens. 
         </p>
 
-
+        <p id="p2" class="center">
+            I have a backyard I share with my neighbors.
+        </p>
         
+        <p id="p3">
+            I live a few blocks away from Costco. 
+        </p>
+           
+        <img class="img" src=https://thumbs.dreamstime.com/b/costco-wholesale-sign-side-costco-store-astoria-queens-new-york-city-costco-wholesale-sign-side-175872485.jpg>
+
+        <p id="p4" >
+            I live by the East River.
+</p>
+        <img class="img" src="https://comedytravelwriting.wordpress.com/wp-content/uploads/2017/05/astoria-downtown.jpg?w=1000">
     </body>
 </html>
